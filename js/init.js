@@ -1,0 +1,7 @@
+const MARKER_SIZE = 4;
+const ZOOM_BY = 1.2;
+const ZOOM_LIMIT_MIN = .5;
+const ZOOM_LIMIT_MAX = 10;
+const GUIDELINE_OFFSET = 5;
+const PIXEL_SIZE = 10;
+const SCALING_THRESHOLD = .2;

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Aruco Map Generator</title>
+	<link rel="stylesheet" href="css/tingle.css" />
+	<link rel="stylesheet" href="css/main.css" />
+	<script lang="js" src="js/konva.min.js"></script>
+	<script lang="js" src="js/tingle.js"></script>
+	<script type="text/javascript" src="js/dict.js"></script>
+	<script type="text/javascript" src="js/init.js"></script>
+	<script type="text/javascript" src="js/aruco.js"></script>
+</head>
+
+<body>
+	<div class="map-field" id="map-field"></div>
+	<div class="nav-menu">
+		<div onclick="createMarker()">создать метку</div>
+		<hr />
+		<div onclick="createMarkers()">импортировать метки</div>
+		<hr />
+		<div onclick="exportMarkers()">экспортировать</div>
+	</div>
+
+	<div id="coords-menu" class="coords-menu">
+		<div class="coords-menu-line">
+			<label for="id_number">id</label>
+			<input id="id_number" type="number" />
+		</div>
+		<hr />
+		<div class="coords-menu-line">
+			<label for="x_number">X</label>
+			<input id="x_number" type="number" />
+		</div>
+		<hr />
+		<div class="coords-menu-line">
+			<label for="y_number">Y</label>
+			<input id="y_number" type="number" />
+		</div>
+		<hr />
+		<div class="coords-menu-line">
+			<label for="z_number">Z</label>
+			<input id="z_number" type="number" />
+		</div>
+		<hr />
+		<div class="coords-menu-line">
+			<label for="w_number">w</label>
+			<input id="w_number" type="number" />
+		</div>
+		<hr />
+		<div class="coords-menu-line">
+			<label for="h_number">h</label>
+			<input id="h_number" type="number" />
+		</div>
+		<hr />
+		<div class="coords-menu-line">
+			<label for="a_number">α</label>
+			<input id="a_number" type="number" />
+		</div>
+	</div>
+
+</body>
+<script lang="js" src="js/main.js"></script>
+
+</html>
